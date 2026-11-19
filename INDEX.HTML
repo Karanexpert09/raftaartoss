@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Raftaar TOSS king</title>
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1076092452151264');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1076092452151264&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+<link rel="icon" href="logo.jpg">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--red:#e01b1b;--red2:#ff4a3d;--bg:#0a0505;--card:#150909;--text:#f5eaea;--muted:#b49a9a;--line:#3a1515;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:Poppins,system-ui,sans-serif;overflow-x:hidden;line-height:1.6}
+h1,h2,h3,.logo{font-family:"Bebas Neue",Impact,sans-serif;letter-spacing:1px;font-weight:400}
+nav{position:sticky;top:0;z-index:20;display:flex;justify-content:space-between;align-items:center;padding:10px 5%;background:rgba(10,5,5,.85);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.logo{font-size:28px;color:var(--red2);display:flex;align-items:center;gap:10px;text-shadow:0 0 18px rgba(224,27,27,.6)}
+.logo img{width:44px;height:44px;border-radius:50%;object-fit:cover;border:2px solid var(--red)}
+nav a.lk{color:var(--muted);text-decoration:none;margin-left:22px;font-size:14px;transition:.3s}
+nav a.lk:hover{color:var(--red2)}
+.btn{display:inline-block;background:linear-gradient(135deg,var(--red),#a30f0f);color:#fff;text-decoration:none;padding:14px 34px;border-radius:50px;font-weight:600;font-size:16px;border:0;cursor:pointer;box-shadow:0 0 0 0 rgba(224,27,27,.7);animation:pulse 2s infinite;transition:transform .3s}
+.btn:hover{transform:translateY(-3px) scale(1.04)}
+.btn.sm{padding:9px 22px;font-size:14px}
+.btn.ghost{background:transparent;border:2px solid var(--red);animation:none}
+@keyframes pulse{70%{box-shadow:0 0 0 18px rgba(224,27,27,0)}100%{box-shadow:0 0 0 0 rgba(224,27,27,0)}}
+.hero{min-height:92vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:60px 6%;position:relative;overflow:hidden;background:radial-gradient(circle at 50% 35%,#4a0b0b 0%,var(--bg) 65%)}
+.hero::before{content:"";position:absolute;width:520px;height:520px;border-radius:50%;background:radial-gradient(circle,rgba(224,27,27,.35),transparent 70%);animation:float 6s ease-in-out infinite;top:8%}
+@keyframes float{50%{transform:translateY(30px) scale(1.1)}}
+.hero-logo{width:min(300px,68vw);aspect-ratio:1/1;object-fit:cover;border-radius:24px;border:2px solid var(--red);position:relative;box-shadow:0 0 50px rgba(224,27,27,.55);animation:drop 1s ease both,float2 4s 1s ease-in-out infinite;margin-bottom:22px}
+.join-logo{width:90px;height:90px;border-radius:50%;object-fit:cover;border:2px solid var(--red);box-shadow:0 0 30px rgba(224,27,27,.6);margin-bottom:14px}
+@keyframes drop{from{opacity:0;transform:translateY(-60px)}}
+@keyframes float2{50%{transform:translateY(-8px)}}
+.hero h2{font-size:clamp(28px,6vw,54px);color:#fff;position:relative;text-shadow:0 0 30px rgba(224,27,27,.6);animation:rise 1s .4s ease both}
+.hero p{max-width:560px;color:var(--muted);margin:16px 0 30px;position:relative;animation:rise 1s .6s ease both}
+.cta{display:flex;gap:14px;flex-wrap:wrap;justify-content:center;position:relative;animation:rise 1s .8s ease both}
+@keyframes rise{from{opacity:0;transform:translateY(30px)}}
+section{padding:80px 6%;max-width:1150px;margin:auto}
+.title{text-align:center;font-size:clamp(34px,6vw,54px);margin-bottom:8px}
+.title span{color:var(--red2)}
+.sub{text-align:center;color:var(--muted);margin-bottom:44px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:18px;text-align:center}
+.stat b{font-family:"Bebas Neue",sans-serif;font-size:56px;color:var(--red2);font-weight:400;display:block}
+.stat{padding:22px;border:1px solid var(--line);border-radius:16px;background:var(--card)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:22px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:30px;transition:.35s}
+.card:hover{transform:translateY(-8px);border-color:var(--red);box-shadow:0 12px 40px rgba(224,27,27,.25)}
+.card .ic{font-size:34px;margin-bottom:10px}
+.card h3{font-size:28px;color:#fff}
+.card p{color:var(--muted);font-size:14px}
+.price{font-family:"Bebas Neue",sans-serif;font-size:48px;color:var(--red2)}
+.price small{font-size:15px;color:var(--muted);font-family:Poppins}
+.card ul{list-style:none;margin:14px 0 20px;color:var(--muted);font-size:14px}
+.card li::before{content:"♛ ";color:var(--red)}
+.card.pop{border-color:var(--red);background:linear-gradient(180deg,#2a0909,var(--card))}
+.join{text-align:center;background:linear-gradient(135deg,#4a0b0b,#120505);border:1px solid var(--red);border-radius:26px;margin:0 6% 60px;padding:60px 20px}
+.join h2{font-size:clamp(34px,6vw,56px);margin-bottom:10px}
+footer{text-align:center;color:var(--muted);font-size:13px;padding:30px 6%;border-top:1px solid var(--line)}
+.rv{opacity:0;transform:translateY(40px);transition:1s}
+.rv.on{opacity:1;transform:none}
+@media(max-width:640px){nav a.lk{display:none}.hero{min-height:85vh}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="logo"><img src="logo.jpg" alt="Raftaar toss logo">RAFTAAR TOSS KING</div>
+  <div><a class="lk" href="#programs">Prediction Type</a><a class="lk" href="#plans">Plans</a><a class="lk" href="#contact">Contact</a>
+  <a class="btn sm" href="#join" style="margin-left:22px">Join Now</a></div>
+</nav>
+
+<header class="hero">
+  <img class="hero-logo" src="logo.jpg" alt="Raftaar Gym logo">
+  <h2>TOSS • MATCH • SESSION</h2>
+  <p>Change Your LOss Into Profit Using Cricket Trading With Raftaar Toss King.</p>
+  <div class="cta"><a class="btn" href="#join">Join Now</a><a class="btn ghost" href="#plans">View More</a></div>
+</header>
+
+<section class="rv">
+  <div class="stats">
+    <div class="stat"><b data-n="30000">0</b>Active Members</div>
+    <div class="stat"><b data-n="93">0</b>Accuracy</div>
+    <div class="stat"><b data-n="4000">0</b>Predicted</div>
+    <div class="stat"><b data-n="10">0</b>Daily Limit Plus</div>
+  </div>
+</section>
+
+<section id="programs" class="rv">
+  <h2 class="title">OUR <span>PREDICTION</span></h2>
+  <p class="sub">Cricket prediction se related sabhi prediction karta hu</p>
+  <div class="grid">
+    <div class="card"><div class="ic">🪙 </div><h3>Toss Prediction</h3><p>Daily toss prediction updates 2-3 hours pahle.</p></div>
+    <div class="card"><div class="ic">🏏</div><h3>Match Prediction</h3><p>Match prediction toss hone 30min baad.</p></div>
+    <div class="card"><div class="ic">🖲️</div><h3>Session Prediction</h3><p>Session prediciton live matches me with hight accuracy</p></div>
+    <div class="card"><div class="ic">🏆</div><h3>Live Match Enrty</h3><p>Big & best match daily enty </p></div>
+  </div>
+</section>
+
+<section id="plans" class="rv">
+  <h2 class="title">MY <span>SERVICE</span></h2>
+  <p class="sub">Apna profit badao</p>
+  <div class="grid">
+    <div class="card"><h3>DAILY FREE UPDATE</h3><ul><li>Toss FREE</li><li>Match FREE</li><li>Session FREE</li></ul><a class="btn sm" href="#join">Join</a></div>
+    <div class="card pop"><h3>NO VIP GROUP ★</h3><ul><li>aUR faltu logo ki tara vip group nhi </li><li>only data absed analysis</li><li>no 1. tipper with 6 year experiance</li></ul><a class="btn sm" href="#join">Join</a></div>
+    <div class="card"><h3>DATA BAESED ANALISIS</h3><ul><li>Everything is free</li><li>Free sessions</li><li>Best value</li></ul><a class="btn sm" href="#join">Join</a></div>
+  </div>
+</section>
+
+<div class="join rv" id="join">
+  <img class="join-logo" src="logo.jpg" alt="Raftaar logo">
+  <h2>BANO <span style="color:var(--red2)">RAFTAAR</span> KA HISSA</h2>
+  <p style="color:var(--muted);margin-bottom:26px">DAILY PROFIT BANAO.</p>
+  <!-- NOTE: apna WhatsApp number ya Telegram link yahan daalo -->
+  <a class="btn" href="https://t.me/+owExeg4RMvhiMjY1" target="_blank" rel="noopener">Join on Telegram</a>
+</div>
+
+<footer id="contact">© Raftaar TOss King • Lucknow • Best Prediction</footer>
+
+<script>
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('on');e.target.querySelectorAll('[data-n]').forEach(c=>{const t=+c.dataset.n;let n=0;const s=Math.max(1,t/50);const i=setInterval(()=>{n+=s;if(n>=t){n=t;clearInterval(i)}c.textContent=Math.round(n)+'+'},30)});io.unobserve(e.target)}}),{threshold:.2});
+document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
